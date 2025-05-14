@@ -38,7 +38,7 @@ main {
 }
 
 .logo {
-  max-height: 60px; /* adjust to suit your logos */
+  max-height: 60px; 
 }
 
 .header-text {
@@ -47,5 +47,5 @@ main {
 }
 
 .btn {
-  /* you can also tweak font-size, padding, etc. here */
+
 }
