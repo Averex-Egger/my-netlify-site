@@ -1,4 +1,5 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
+
 body {
   font-family: sans-serif;
   display: flex;
@@ -6,47 +7,19 @@ body {
   min-height: 100vh;
 }
 
-/* Simple top greeting header */
-.site-header-simple {
+header, footer {
   text-align: center;
   padding: 1rem;
   background: #f4f4f4;
 }
 
-/* Centered main content */
 main {
   flex: 1;
   padding: 2rem;
+  max-width: 800px;
   margin: 0 auto;
-  max-width: 1200px;
 }
 
-/* PDF preview with side logos */
-.preview-area {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-/* Center column: button + PDF embed */
-.preview-center {
-  text-align: center;
-}
-
-/* Side logos */
-.side-logo {
-  max-height: 120px;
-  width: auto;
-  flex-shrink: 0;
-}
-
-/* Optional tweaks if needed */
-.side-logo--left  { /* Averex on left */  }
-.side-logo--right { /* Egger on right  */  }
-
-/* Button styling */
 .btn {
   display: inline-block;
   margin: 1rem 0;
@@ -57,16 +30,7 @@ main {
   border-radius: 4px;
 }
 
-/* PDF embed container */
 .preview {
-  margin-top: 1rem;
+  margin-top: 2rem;
   border: 1px solid #ddd;
 }
-
-/* Footer styling */
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #f4f4f4;
-}
-
